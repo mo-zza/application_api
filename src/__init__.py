@@ -6,8 +6,8 @@ from config import Config
 from src.infrastructure.firebase import Firestore
 from src.infrastructure.binance import Binance
 
-binance_master_key = 'binance-api-key'
-binance_master_secret = 'binance-secret-key'
+binance_master_key = 'access key'
+binance_master_secret = 'secret key'
 
 firestore = Firestore()
 binance = Binance(binance_master_key, binance_master_secret)
@@ -32,8 +32,8 @@ def mail_server():
 
     app.config["MAIL_SERVER"] = 'smtp.gmail.com'
     app.config["MAIL_PORT"] = 465
-    app.config["MAIL_USERNAME"] = 'google
-    app.config["MAIL_PASSWORD"] = 'google'
+    app.config["MAIL_USERNAME"] = 'kamal.ha@alchemilab.com'
+    app.config["MAIL_PASSWORD"] = 'h@je@w00&&*('
     app.config["MAIL_USE_TLS"] = False
     app.config["MAIL_USE_SSL"] = True
 

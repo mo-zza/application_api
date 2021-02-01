@@ -1,2 +1,1 @@
-# ZOLBO_API
-zolbo api server
+# Applcaton API
